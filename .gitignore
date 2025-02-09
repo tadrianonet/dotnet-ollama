@@ -1,0 +1,62 @@
+# Ignora arquivos de compilação e binários
+[Bb]in/
+[Oo]bj/
+
+# Ignora arquivos de usuário específicos do Visual Studio
+*.user
+ 
+
+# Ignora arquivos de cache do Visual Studio
+.vs/
+
+# Ignora arquivos de configuração local
+appsettings.Development.json
+
+# Ignora arquivos de log e banco de dados local
+*.log
+*.sqlite
+
+# Ignora pacotes NuGet
+[Nn]u[Gg]et/
+*.nupkg
+packages/
+
+# Ignora arquivos de teste
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignora arquivos de resharper
+_ReSharper.*
+*.resharper
+
+# Ignora arquivos de dotnet
+.dotnet/
+
+# Ignora arquivos de IDE
+.idea/
+
+ 
+
+# Ignora arquivos de Azure
+.azure/
+
+# Ignora arquivos de macOS
+.DS_Store
+
+# Ignora arquivos de Node.js (caso seu projeto use Node.js)
+node_modules/
+
+# Ignora arquivos de Python (caso seu projeto use Python)
+__pycache__/
+*.pyc
+
+# Ignora arquivos de Terraform (caso seu projeto use Terraform)
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ignora arquivos de Rider
+.idea/ 
+
+# Ignora arquivos de Visual Studio Code
+.vscode/
